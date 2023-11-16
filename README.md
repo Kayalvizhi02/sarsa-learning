@@ -1,5 +1,6 @@
-# SARSA Learning Algorithm
-
+### EX NO: 06
+### DATE:
+# <p align="center">SARSA Learning Algorithm</p>
 
 ## AIM
 To develop a Python program to find the optimal policy for the given RL environment using SARSA-Learning and compare the state values with the Monte Carlo method.
@@ -24,7 +25,9 @@ Update the Q-value for the current state-action pair (S, A) using the SARSA upda
 Update State and Action and repeat the step 3 untill the episodes ends.
 
 ## SARSA LEARNING FUNCTION
-```python3 
+```python3
+# Developed by: Kayalvizhi M
+# Register Number: 212220230024
 def sarsa(env,
           gamma=1.0,
           init_alpha=0.5,
